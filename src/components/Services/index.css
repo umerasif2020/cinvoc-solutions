@@ -1,0 +1,21 @@
+.contain{
+    /* height: 1088px; */
+    /* background-image: url('../../images/circle.png'); */
+    /* height: 290vh; */
+    /* background-repeat: no-repeat; */
+    /* background-position: left; */
+    /* background-size: auto 730px; */
+    /* object-fit: contain; */
+
+    /* width: 100vw; */
+    /* height: 450px; */
+    object-fit: contain;
+}
+
+.circle{
+    /* width:69vw; */
+    /* height: 100vh;
+    border-top-right-radius: 35%;
+        border-bottom-right-radius: 30%;
+    background-color: #F37024;; */
+}
