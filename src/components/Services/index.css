@@ -1,21 +1,18 @@
-.contain{
-    /* height: 1088px; */
-    /* background-image: url('../../images/circle.png'); */
-    /* height: 290vh; */
-    /* background-repeat: no-repeat; */
-    /* background-position: left; */
-    /* background-size: auto 730px; */
-    /* object-fit: contain; */
-
-    /* width: 100vw; */
-    /* height: 450px; */
-    object-fit: contain;
+.image2{
+position: absolute;
+margin-left: 70px;
+margin-right: 50px;
+margin-top: 180px;
+    z-index: 2;
+    width : 90%;
+}
+.image1 {
+    /* position: relative; */
+    z-index: 1;
 }
 
-.circle{
-    /* width:69vw; */
-    /* height: 100vh;
-    border-top-right-radius: 35%;
-        border-bottom-right-radius: 30%;
-    background-color: #F37024;; */
+.centeredIT {
+    position: absolute;
+    left: 10%;
+    /* transform: translate(-50%, -50%); */
 }
