@@ -1,18 +1,58 @@
+/* 
+.image3 {
+    position: absolute;
+    margin-left: 70px;
+    margin-right: 50px;
+    margin-top: 250px;
+    z-index: 2;
+    width: 90%;
+} */
+
 .image2{
 position: absolute;
-margin-left: 70px;
-margin-right: 50px;
-margin-top: 180px;
+margin-left: 120px;
+margin-right: 120px;
+margin-top: 200px;
     z-index: 2;
-    width : 90%;
+    width : 85%;
 }
 .image1 {
     /* position: relative; */
     z-index: 1;
+}
+.image3 {
+    position: absolute;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 400px;
+    z-index: 2;
+    width: 85%;
 }
 
 .centeredIT {
     position: absolute;
     left: 10%;
     /* transform: translate(-50%, -50%); */
+}
+
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 30px;
+    height: 200px;
+    /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row1:after {
+    content: "";
+    display: table;
+    clear: both;
 }

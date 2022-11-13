@@ -11,7 +11,7 @@ import makeIT from './images/makeIT.svg';
 function App() {
   return (
     <div classNameName="App">
-      <nav className="navbar navbar-expand-lg navbar-light bg-white">
+      <nav className="navbar navbar-expand-lg navbar-light bg-white" >
   <a className="navbar-brand" style={{marginRight: "23rem"}} href="#">
    <img src={logo} width="83"  alt="logo" height="110" />
   </a>
@@ -21,34 +21,34 @@ function App() {
   <div className="collapse navbar-collapse justify-content-between" id="navbarNavDropdown">
     <ul className="navbar-nav ">
       <li className="nav-item">
-        <a className="nav-link " href="#">Home <span className="sr-only">(current)</span></a>
+        <a className="nav-link " href="#" style={{color: "black", fontFamily: "Assistant" , fontWeight : "700" , fontSize: "19px" }}>Home <span className="sr-only">(current)</span></a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">About</a>
+        <a className="nav-link" href="#" style={{color: "black", fontFamily: "Assistant" , fontWeight : "700" , fontSize: "19px"}}>About</a>
       </li>
       <li className="nav-item dropdown">
         <a className="nav-link dropdown-toggle btn-0 maxWi" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-
+style={{color: "black", fontFamily: "Assistant" , fontWeight : "700" , fontSize: "19px"}}
         >
           Services
         </a>
         <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a className="dropdown-item" href="#">Action</a>
-          <a className="dropdown-item" href="#">Another action</a>
-          <a className="dropdown-item" href="#">Something else here</a>
+          <a className="dropdown-item" href="#" style={{color: "black", fontFamily: "Assistant" , fontWeight : "700" , fontSize: "19px"}}>Action</a>
+          <a className="dropdown-item" href="#" style={{color: "black", fontFamily: "Assistant" , fontWeight : "700" , fontSize: "19px"}}>Another action</a>
+          <a className="dropdown-item" href="#" style={{color: "black", fontFamily: "Assistant" , fontWeight : "700" , fontSize: "19px"}}>Something else here</a>
         </div>
         
       </li>
 
       <li className="nav-item">
-        <a className="nav-link" href="#">
+        <a className="nav-link" href="#" style={{color: "black", fontFamily: "Assistant" , fontWeight : "700" , fontSize: "19px"}}>
           Portfolio
 
         </a>
       </li>
 
       <li className="nav-item">
-        <a className="nav-link" href="#">
+        <a className="nav-link" href="#" style={{color: "black", fontFamily: "Assistant" , fontWeight : "700" , fontSize: "19px"}}>
           Blog
         </a>
       </li>
@@ -58,39 +58,40 @@ function App() {
       <form class="form-inline my-2 my-lg-0 "> */}
     {/* </form>
     </li> */}
-  </div>
-
-      <input class="form-control mr-sm-0"  style={{marginLeft: "25rem"}} type="text" placeholder="Search" aria-label="Search"/>
+         <input class="form-control mr-sm-0"  style={{marginLeft: "25rem"}} type="text" placeholder="Search" aria-label="Search"/>
       <button class="btn  my-2 my-sm-0" style={{backgroundColor: "white"}} type="submit"><img src={phone} width="50"  alt="logo" height="50" /></button>
+  </div>
 </nav>
+
+
    <img src={home} width="100%"  alt="logo" height="600px" />
    <blockquote class="blockquote text-center" style={{marginTop: "147px"}}>
-  <p class="mb-0" style={{fontFamily: "Assistant" , fontWeight : "550" , fontSize: "35px", color:"#F37024" ,textTransform: "capitalize"
+  <p class="mb-0" style={{fontFamily: "Assistant" , fontWeight : "900" , fontSize: "35px", color:"#F37024" ,textTransform: "capitalize"
 }}>Our Aim: Providing overarching technology solutions.
 </p>
-    <p class="mb-0" style={{fontFamily: "Assistant" , fontWeight : "550" , fontSize: "35px", lineHeight: "70px"}}>our goal is to achieve your trust!</p>
+    <p class="mb-0" style={{fontFamily: "Assistant" , fontWeight : "900" , fontSize: "35px", lineHeight: "70px"}}>our goal is to achieve your trust!</p>
 
 </blockquote>
-<div class="row justify-content-md-center" style={{marginTop: "80px"}}>
-    <div class="col col-lg-2">  
-      <p class="mb-0" style={{fontFamily: "Assistant" , fontWeight : "550" , fontSize: "15px" ,textAlign: "center", fontStyle: "bold"}}>Years In
+<div class="row justify-content-md-center" style={{marginTop: "40px" , width : "100vw" , marginBottom : "50px"}}>
+    <div class="col col-lg-2" style={{borderRight :" 1px solid  #C4C4C4" ,marginBottom:"6px" , width : "100vw"}}>  
+      <p class="mb-0" style={{fontFamily: "Assistant" , fontWeight : "900" , fontSize: "15px" ,textAlign: "center", fontStyle: "bold"}}>Years In
 </p>
- <p class="mb-0" style={{fontFamily: "Assistant" , fontWeight : "550" , fontSize: "15px" ,textAlign: "center"}}>
+ <p class="mb-0" style={{fontFamily: "Assistant" , fontWeight : "900" , fontSize: "15px" ,textAlign: "center"}}>
 experience</p>
- <p class="mb-0" style={{fontFamily: "Assistant" , fontWeight : "700" , fontSize: "35px", lineHeight: "70px" ,textAlign: "center" ,color:"#F37024"}}>5+</p>
+ <p class="mb-0" style={{fontFamily: "Assistant" , fontWeight : "900" , fontSize: "45px", lineHeight: "70px" ,textAlign: "center" ,color:"#F37024"}}>5+</p>
     </div>
-    <div class="col col-lg-2"><p class="mb-0" style={{fontFamily: "Assistant" , fontWeight : "550" , fontSize: "15px" ,textAlign: "center"}}>Projects We
+    <div class="col col-lg-2"><p class="mb-0" style={{fontFamily: "Assistant" , fontWeight : "900" , fontSize: "15px" ,textAlign: "center" ,borderRight :" 1px solid  #C4C4C4" , height  : "50vm" }}>Projects We
 </p>
- <p class="mb-0" style={{fontFamily: "Assistant" , fontWeight : "550" , fontSize: "15px" ,textAlign: "center"}}>
+ <p class="mb-0" style={{fontFamily: "Assistant" , fontWeight : "900" , fontSize: "15px" ,textAlign: "center" ,borderRight :" 1px solid  #C4C4C4"}}>
 Completed</p>
- <p class="mb-0" style={{fontFamily: "Assistant" , fontWeight : "700" , fontSize: "35px", lineHeight: "70px" ,textAlign: "center" ,color:"#F37024"}}>50+</p>
+ <p class="mb-0" style={{fontFamily: "Assistant" , fontWeight : "900" , fontSize: "45px", lineHeight: "70px" ,textAlign: "center" ,color:"#F37024",borderRight :" 1px solid  #C4C4C4"}}>50+</p>
 
     </div>
-    <div class="col col-lg-2"><p class="mb-0" style={{fontFamily: "Assistant" , fontWeight : "550" , fontSize: "15px" ,textAlign: "center"}}>Customer
+    <div class="col col-lg-2"><p class="mb-0" style={{fontFamily: "Assistant" , fontWeight : "900" , fontSize: "15px" ,textAlign: "center" }}>Customer
 </p>
- <p class="mb-0" style={{fontFamily: "Assistant" , fontWeight : "550" , fontSize: "15px" ,textAlign: "center"}}>
+ <p class="mb-0" style={{fontFamily: "Assistant" , fontWeight : "900" , fontSize: "15px" ,textAlign: "center" }}>
 Satisfaction</p>
- <p class="mb-0" style={{ fontWeight : "700" , fontSize: "35px", lineHeight: "70px" ,textAlign: "center" ,color:"#F37024"}}>99%</p>
+ <p class="mb-0" style={{fontFamily: "Assistant" , fontWeight : "900" , fontSize: "45px", lineHeight: "60px" ,textAlign: "center" ,color:"#F37024"}}>99%</p>
     </div>
   </div>
 
@@ -143,7 +144,7 @@ Satisfaction</p>
 
 
 {/* white area */}
-<div class="container" style={{marginTop : "70px", marginBottom : "70px"}}>
+<div class="container" style={{marginTop : "70px", marginBottom : "70px"  , height : "80px"}}>
   <div class="row">
     <div class="col-5" style={{fontFamily: "Assistant" , fontWeight : "350" , fontSize: "25px", color:"#F37024" ,textTransform: "capitalize"
 }}>
