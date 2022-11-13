@@ -1,21 +1,58 @@
-.contain{
-    /* height: 1088px; */
-    /* background-image: url('../../images/circle.png'); */
-    /* height: 290vh; */
-    /* background-repeat: no-repeat; */
-    /* background-position: left; */
-    /* background-size: auto 730px; */
-    /* object-fit: contain; */
+/* 
+.image3 {
+    position: absolute;
+    margin-left: 70px;
+    margin-right: 50px;
+    margin-top: 250px;
+    z-index: 2;
+    width: 90%;
+} */
 
-    /* width: 100vw; */
-    /* height: 450px; */
-    object-fit: contain;
+.image2{
+position: absolute;
+margin-left: 120px;
+margin-right: 120px;
+margin-top: 200px;
+    z-index: 2;
+    width : 85%;
+}
+.image1 {
+    /* position: relative; */
+    z-index: 1;
+}
+.image3 {
+    position: absolute;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 400px;
+    z-index: 2;
+    width: 85%;
 }
 
-.circle{
-    /* width:69vw; */
-    /* height: 100vh;
-    border-top-right-radius: 35%;
-        border-bottom-right-radius: 30%;
-    background-color: #F37024;; */
+.centeredIT {
+    position: absolute;
+    left: 10%;
+    /* transform: translate(-50%, -50%); */
+}
+
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 30px;
+    height: 200px;
+    /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row1:after {
+    content: "";
+    display: table;
+    clear: both;
 }
