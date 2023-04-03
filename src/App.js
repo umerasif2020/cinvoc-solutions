@@ -7,7 +7,7 @@ import Services from './components/Services';
 
 function App() {
   return (
-    <div classNameName="Apple">
+    <div classNameName="App">
       <nav className="navbar navbar-expand-lg navbar-light bg-white">
   <a className="navbar-brand" style={{marginRight: "23rem"}} href="#">
    <img src={logo} width="83"  alt="logo" height="110" />
